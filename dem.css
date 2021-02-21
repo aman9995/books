@@ -1,0 +1,92 @@
+body{
+    background-image: url(bcc.jpg);
+}
+.aaa{
+    background-color:black ;
+    opacity: 1;
+}
+.ccc{
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    font-size: 120%;
+}
+.ddd{
+    background-image: url(ff.jpg);
+}
+.eee{
+    font-size: 200%;
+}
+.fff{
+    padding: 0 10rem;
+   
+}
+.row{
+    height : 500px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row2{
+    margin-bottom: 10rem;
+}
+.row3{
+    margin-bottom: 10rem;
+}
+.row4{
+    margin-bottom: 10rem;
+}
+.row1 .image, .row2 .text, .row3 .image, .row4 .text, .row5 .image{
+    float: left;
+    width: 50%;
+}
+.row5 .text, .row4 .image, .row3 .text, .row2 .image, .row1 .text{
+    float: right;
+    width: 50%;
+}
+.row .image{
+    width: 50%;
+    height: 100%;
+    border : 1px solid black
+}
+.row .text{
+    width: 46%;
+    padding: 1rem;
+    background-image: url(bbc.jpg);
+}
+.row .image img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.jjjj{
+    display: inline-block;
+    padding: 20px 40px;
+    font-weight: 500 ;
+    margin: 5px;
+    text-transform: uppercase;
+}
+.kkk{
+    border: 2px solid black;
+    background-color:white;
+    color: black;
+    border-radius: 1.0em;
+}
+.kkk :hover{
+    background-color: #ddd;
+}
+.zzz{
+    background-color: grey;
+    font-size: 150%;
+}
+.zz{
+    margin-left: 550px;
+}
+.row .text img{
+    width : 100%;
+    height : 100%
+
+}
